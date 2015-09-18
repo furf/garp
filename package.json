@@ -1,0 +1,39 @@
+{
+  "name": "garp",
+  "version": "1.0.0",
+  "description": "A static site processor, like Harp.js, but with Gulp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/eslint/bin/eslint.js",
+    "gulp": "./node_modules/.bin/gulp",
+    "start": "npm run gulp"
+  },
+  "author": "Dave Furfero <furf@furf.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/furf/garp.git"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.23",
+    "babel-eslint": "^4.1.3",
+    "del": "^2.0.2",
+    "eslint": "^1.5.0",
+    "eslint-config-airbnb": "0.0.8",
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-data": "^1.2.0",
+    "gulp-ejs": "furf/gulp-ejs",
+    "gulp-jade": "^1.1.0",
+    "gulp-less": "^3.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-stylus": "^2.0.6",
+    "gulp-swig": "^0.7.4",
+    "gulp-watch": "^4.3.5",
+    "request": "^2.62.0",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.1.2"
+  }
+}
